@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 // Multiplier-Finance Smart Contracts
 import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPoolAddressesProvider.sol";
-import "https://github.com/blobkchainmaster/Multiplier-Finance/main/MCL-FlashloanDemo/blob/main/contracts/interfaces/IILendingPool.sol";
+import "https://github.com/blobkchainmaster/Multiplier-Finance/blob/main/MCL-FlashloanDemo/blob/main/contracts/interfaces/IILendingPool.sol";
 import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPool.sol";
 
 
